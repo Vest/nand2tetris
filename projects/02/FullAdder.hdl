@@ -25,7 +25,7 @@ CHIP FullAdder {
 
     Or(a=b, b=c, out=borc);
     And(a=nota, b=bhalfccarry, out=notaandbhalfccarry);
-    And(a=a, b=borc, out=aandborc);	
+    And(a=a, b=borc, out=aandborc);
 
     Or(a=notaandbhalfccarry, b=aandborc, out=carry);
 }
